@@ -5,14 +5,12 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import pojo.Airline;
-import pojo.Flight;
-import pojo.Route;
+
 
     public class AirlineXML {
 
         //singleton
-        private static AirlineXML instance = null;
+        /*private static AirlineXML instance = null;
 
         private AirlineXML() {
         }
@@ -59,5 +57,5 @@ import pojo.Route;
                             r -> r.getFlights().stream().max((f1, f2) -> f1.getDuration() - f2.getDuration()).get()));
         }
 
-
+        */
     }
